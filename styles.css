@@ -199,6 +199,19 @@ body {
     transform: translateY(-2px);
 }
 
+.btn-outline {
+    background: transparent;
+    color: #1f2937;
+    border: 2px solid #1f2937;
+}
+
+.btn-outline:hover {
+    background: #1f2937;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(31, 41, 55, 0.3);
+}
+
 .profile-card {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
@@ -258,6 +271,11 @@ body {
     background: #fbbf24;
     color: #1f2937;
     transform: translateY(-2px);
+}
+
+.resume-download {
+    margin-top: 2rem;
+    text-align: center;
 }
 
 .scroll-indicator {
